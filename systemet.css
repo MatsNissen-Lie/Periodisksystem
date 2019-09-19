@@ -1,0 +1,90 @@
+/*body{
+  background-color: orange;
+}
+.systemet{
+  display: grid;
+  grid-template-columns: repeat(8,1fr);
+  grid-gap: 5px;
+}
+.grunnstoff{
+  background-color: white;
+}
+
+.span-6{
+  grid-column: span 6;
+}
+
+.usynlig{
+  opacity: 0;
+}*/
+body{
+  margin: auto;
+}
+nav{
+  background-color: #1565c0;
+  display: flex;
+  justify-content: space-around;
+}
+nav a{
+  color: white;
+  text-decoration: none;
+  padding: 25px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+
+.systemet{
+  display: grid;
+  grid-template-columns: repeat(18,1fr);
+  grid-gap: 6px;
+  margin-top: 6px;
+}
+#span16{
+ grid-column: span 16;
+}
+.span10{
+  grid-column: span 10;
+}
+.usynelig{
+  opacity: 0.0;
+}
+
+.grunnstoff{
+  background-color: #ffc0c0;
+}
+.tall, .navn{
+  text-align: center;
+}
+.tall{
+  font-size: 20px;
+}
+.hight{
+  height: 100%;
+  text-align: center;
+  margin: auto;
+}
+
+.edelgass{background-color: #86d7fc;}
+.green{background-color: #86fca5;}
+.red{background-color: #f55353;}
+.brown{background-color: #cccc99;}
+.yellow{ background-color: #f5ec84;}
+.dirt{background-color: #c9ad77;}
+.gray{background-color: #cccccc;}
+.pink{background-color: #FFBFFF}
+.purple{background-color: #ff99cc}
+
+.system2{
+  display: grid;
+  grid-template-columns: repeat(18, 1fr);
+  grid-gap: 6px;
+}
+.span1{
+  grid-column: span 1;
+}
+.span2{
+  grid-column: span 2;
+  text-align: center;
+  margin: auto;
+}
